@@ -19,3 +19,5 @@ Somente a proprietária pode editar o caderno. As marcações de progresso são 
 `public/sync-config.js` contém a URL e a chave publicável do Supabase. Nenhuma chave de serviço deve estar no frontend.
 
 O site original permanece independente. Use a versão do GitHub Pages nos dois aparelhos para compartilhar o mesmo progresso.
+
+Endereço público: https://gabijungblut.github.io/le-cahier-de-gabi/

@@ -2,18 +2,20 @@
 
 Caderno pessoal de francês: aulas da Prof. Clara e módulos da Prof. Vanessa.
 
-O site é servido pelo GitHub Pages. Edições e progresso são sincronizados pelo Supabase, com acesso da proprietária por e-mail. Os materiais do Drive mantêm suas permissões originais.
+O site usa GitHub Pages e sincronização pelo Supabase. Os materiais do Drive mantêm suas permissões originais.
 
 ## Publicação
 
-Em Settings → Pages, selecione GitHub Actions como fonte. O fluxo `Publish cahier` publica a pasta `public`.
+A fonte do Pages é GitHub Actions. O fluxo `Publish cahier` publica a pasta `public` após cada atualização na branch `main`. Para iniciar manualmente, abra Actions → Publish cahier → Run workflow.
 
-## Acesso
+## Acesso e sincronização
 
-Clique em Entrar para sincronizar. Solicite o acesso pelo e-mail da proprietária e cole no campo do próprio site o link de confirmação recebido. Não compartilhe esse link no chat nem no repositório.
+Clique em Entrar para sincronizar. Solicite acesso pelo e-mail da proprietária e cole no campo do próprio site o link de confirmação recebido. Não compartilhe esse link no chat nem no repositório.
 
-## Código
+Somente a proprietária pode editar o caderno. As marcações de progresso são privadas da conta autenticada. As abas de favoritos e cores salvas são preferências deste navegador.
 
-`public/sync-config.js` contém apenas a URL pública e a chave publicável do projeto; nenhuma chave de serviço pertence ao frontend. As políticas SQL autorizam apenas a proprietária a editar e restringem as marcações ao usuário autenticado.
+## Configuração
 
-O site original permanece independente. Depois da migração, use este endereço nos dois aparelhos para compartilhar o mesmo progresso.
+`public/sync-config.js` contém a URL e a chave publicável do Supabase. Nenhuma chave de serviço deve estar no frontend.
+
+O site original permanece independente. Use a versão do GitHub Pages nos dois aparelhos para compartilhar o mesmo progresso.
